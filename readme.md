@@ -1,2 +1,0 @@
-### Chamada QR Code
-
