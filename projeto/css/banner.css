@@ -4,7 +4,7 @@
 #banner {
 	margin-top:50px;
 	position:relative;
-	color:rgb(255, 255, 255);
+	
 	}
 #banner img {
 	width:100%;
@@ -15,29 +15,25 @@
 	top:50%;
 	left:50%;
 	transform:translateX(-50%) translateY(-50%);
-	color:rgb(255, 255, 255);
+	color:rgb(19, 15, 15);
 }
 
 #banner h2 {
-	font-size:28px;
-	color:rgb(255, 255, 255);
-}
+	font-size:28px;}
 	
 #banner a {
 	display:block;
 	width:125px;
-	color:rgb(255, 255, 255);
+	color:rgb(19, 15, 15);
 	text-decoration:none;
 	padding:10px;
 	margin-top:10px;
-	border:2px solid rgb(255, 255, 255);
+	border:2px solid rgb(15, 5, 5);
 }
 
 #banner a:hover {
 	background: rgba(255,255,255,0.1);}
-
-#paragrafo {color:rgb(255, 255, 255);}
-
+	
 @media (min-width:780px){
 	#banner{
 		height:auto;
@@ -52,15 +48,3 @@
 	#banner img {
 		margin-top:-200px;}
 	}
-
-
-#banner .contenedor {
-	/* position: absolute; */
-	/* top: 50%; */		/* left: 50%; */
-	/* transform: translateX(-50%) translateY(-50%); */
-	color: rgb(19, 15, 15);
-	background-color: rgba(0,0,0,0.5);
-	height: 100%;
-	width: 100%;
-	padding-top: 13%;
-	padding-left: 20%;}
