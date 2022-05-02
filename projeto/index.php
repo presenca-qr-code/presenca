@@ -26,7 +26,7 @@
     <a href="">Quem Somos</a>
     <a href="">Portfolio</a>
     <a href="">Contato</a>
-    <a href="adm/index.php">Logar</a>
+    <a href="admin/index.php">Logar</a>
     </div>
     </header>
 
@@ -39,6 +39,7 @@
         <a href="#">Saiba Mais</a>
         </div>
         </section>
+        <p>
         <section id="bem_vindos">
         <h2>Bem Vindos ao sistema de chamada por QrCode</h2>
         <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
