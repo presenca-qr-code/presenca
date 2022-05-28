@@ -56,6 +56,12 @@ include_once("conexao.php");
 		$pag[20] = "editar_turmas.php";
 
 
+		$pag[21] = "listar_chamadas.php";
+		$pag[22] = "cad_chamadas.php";
+		$pag[23] = "visual_chamadas.php";
+		$pag[24] = "editar_chamadas.php";
+
+
 
 
 

@@ -19,7 +19,7 @@
 
 
 		<li class="dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aulas</span></a>
+		  <a href="usuario.php?link=2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aulas</span></a>
         </li>
 
 	

@@ -46,18 +46,15 @@
 			
 		  </ul>
 		</li>
-		<!-- <li class="dropdown"> 
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Carousel <span class="caret"></span></a>
+		<li class="dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chamadas<span class="caret"></span></a>
 		  <ul class="dropdown-menu">
-			<li><a href="administrativo.php?link=25">Listar Carousel</a></li> 
+			<li><a href="administrativo.php?link=21">Listar Chamada</a></li>
+			<li><a href="administrativo.php?link=22">Criar Chamada</a></li>     
+			
 		  </ul>
-		</li> -->
-		<!-- <li class="dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Configuração <span class="caret"></span></a>
-		  <ul class="dropdown-menu">
-			<li><a href="administrativo.php?link=14">Situação</a></li>
-		  </ul>
-		</li> -->
+		</li>
+
 		<li><a href="sair.php">Sair</a></li>
 	  </ul>
 	</div><!--/.nav-collapse -->

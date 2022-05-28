@@ -30,21 +30,28 @@ $agora = date('d/m/Y H:i');
   <body role="document">
 	<?php
 		include_once("menu_user.php");
+
+    include_once("listar_chamadas_alunos.php");
 		
-		@$link = $_GET["link"];
+		// @$link = $_GET["link"];
 		
-		$pag[1] = "bem_vindo_user.php";
+		// $pag[1] = "bem_vindo_user.php";
+    // $pag[2] = "listar_chamadas_alunos.php";
+
+
 
 		
-		if(!empty($link)){
-			if(file_exists($pag[$link])){
-				include $pag[$link];
-			}else{
-				include "bem_vindo_user.php";
-			}
-		}else{
-			include "bem_vindo_user.php";
-		}
+		// if(!empty($link)){
+		// 	if(file_exists($pag[$link])){
+		// 		include $pag[$link];
+		// 	}else{
+		// 		include "bem_vindo_user.php";
+		// 	}
+		// }else{
+		// 	include "bem_vindo_user.php";
+		// }
+
+
 		
 	?>
     
