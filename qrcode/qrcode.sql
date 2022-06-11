@@ -55,6 +55,7 @@ CREATE TABLE `chamadas` (
   `id_aula` int(11) NOT NULL,
   `created` datetime NOT NULL,
   `modified` datetime DEFAULT NULL
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -211,6 +212,10 @@ ALTER TABLE `aulas`
 --
 ALTER TABLE `chamadas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+ALTER TABLE `chamadas`
+  ADD FOREIGN KEY (`id_turma`)     
+  REFERENCES `turmas` (`id`)
 
 --
 -- AUTO_INCREMENT de tabela `materias`
